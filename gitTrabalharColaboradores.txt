@@ -1,0 +1,12 @@
+Para trabalhar no git colaborativamente.
+
+1- Criar o repositorio principal.
+2- Adicionar os colaboradores na tela do github.
+	- Settings
+	- Collaborators
+	- Add people
+3- git clone <endereço>
+4- git branch -M devSilvio
+5- git add .
+6- git commint -m "algo"
+7- pusch -u origin devSilvio
