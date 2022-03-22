@@ -1,3 +1,5 @@
+http://comandosgit.github.io/?msclkid=55d75d3ca9ed11ecb58b85423ced9330
+
 Para trabalhar no git colaborativamente.
 
 1- Criar o repositorio principal.
@@ -10,3 +12,28 @@ Para trabalhar no git colaborativamente.
 5- git add .
 6- git commint -m "algo"
 7- pusch -u origin devSilvio
+
+Comandos importantes
+---------------------------------------
+git merge
+
+Suponha que você decidiu que o trabalho na tarefa #53 está completo e pronto para ser feito o merge no branch master. Para fazer isso, você fará o merge do seu branch iss53, bem como o merge do branch hotfix de antes. Tudo que você tem a fazer é executar o checkout do branch para onde deseja fazer o merge e então rodar o comando git merge:
+
+git checkout master
+git merge iss53
+---------------------------------------
+git fetch
+
+Para pegar dados dos seus projetos remotos, você pode executar:
+
+git fetch origin
+
+Esse comando vai até o projeto remoto e pega todos os dados que você ainda não tem. Depois de fazer isso, você deve ter referências para todos os branches desse remoto, onde você pode fazer o merge ou inspecionar a qualquer momento.
+-------------------------------
+git pull
+
+Incorpora as alterações de um repositório remoto no branch atual. Em seu modo padrão, git pull é uma abreviação para git fetch seguido de git merge FETCH_HEAD. Por exemplo, se eu estiver em uma branch chamada develop e quiser atualizar caso haja atualizações remotamente:
+
+git pull origin develop
+---------------------------------------
+
